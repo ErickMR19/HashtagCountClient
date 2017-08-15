@@ -29,19 +29,17 @@ class HashtagCountList extends React.Component {
       <div>
         <div className="table-hashtags pure-table pure-table-horizontal">
           <div className="div-tbody">
-            <div className="div-tr">
               <span>Hashtag</span>
               <span>Número de Tweets</span>
-            </div>
           </div>
           <div>
-          <ReactCSSTransitionGroup
-          transitionName="fade"
-          transitionEnterTimeout={800}
-          transitionLeaveTimeout={400}
-          component="div">
-          {items}
-        </ReactCSSTransitionGroup>
+            <ReactCSSTransitionGroup
+            transitionName="fade"
+            transitionEnterTimeout={800}
+            transitionLeaveTimeout={400}
+            component="div">
+              {items}
+            </ReactCSSTransitionGroup>
           </div>
         </div>
         <p><HashtagNewQuery addEvent={this.addEvent} /></p>
