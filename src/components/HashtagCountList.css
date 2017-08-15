@@ -1,0 +1,35 @@
+.fade-enter {
+    opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 800ms ease-in;
+}
+
+.fade-leave {
+    opacity: 1;
+}
+
+.fade-leave.fade-leave-active {
+    opacity: 0.01;
+    transition: opacity 400ms ease-in;
+}
+
+.table-hashtags {
+    width: 95%;
+    max-width: 600px;
+    margin: 10px auto 0 auto;
+    overflow: auto;
+}
+.table-hashtags span {
+    display: block;
+    float: left;
+    width: 50%; 
+    padding: 5px;
+    box-sizing: border-box; 
+}
+.div-tbody span {
+    font-weight: bold;
+    background-color: #f0f0f0;
+}
